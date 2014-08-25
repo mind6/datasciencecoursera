@@ -11,7 +11,7 @@ output: html_document
 * **run_analysis.R -** R script used to create the tidy data summary.
 * **getdata-006-proj.txt -** Data table created by the above script. You should use `read.table("getdata-006-proj.txt", header=TRUE, check.names=FALSE)` to read it into R.
 * **Codebook.md -** Description of variables in the dataset above.
-* **README.html, Codebook.html -** Generated HTML versions of the MD files.
+* **README.html, Codebook.html -** Generated HTML versions of the MD files. To view these files on github, you can prepend "http://htmlpreview.github.com/?" to the file URL in your browser. 
 
 ###Analysis overview
 After downloading and unzip the following file <http://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Dataset.zip>, **run_analysis.R** is run from inside the "./UCI HAR Dataset" directory. The script performs the following manipulations:
@@ -23,3 +23,4 @@ After downloading and unzip the following file <http://archive.ics.uci.edu/ml/ma
 * Calculate the column means for each of the above splits.
 * Insert each result as a row in a new data frame.
 * Write that data frame to **getdata-006-proj.txt**
+88
